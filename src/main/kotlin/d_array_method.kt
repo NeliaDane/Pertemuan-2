@@ -6,7 +6,7 @@ fun main() {
         print(simpson + ' ')
     }
     print('\n')
-//sorted()
+//sorted() mengurutkan abjad asccending
     val simpsonsB: Array<String> = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     val simpsons_sorted = simpsonsB.sortedArray()
     for (simpson in simpsons_sorted) {
@@ -21,7 +21,7 @@ fun main() {
         print(simpson + ' ')
     }
     print('\n')
-//indexOf()
+//indexOf() nilai index atau size index  dimulai dari nol 0
     val simpsonsD = arrayOf("Homer", "Marge", "Bart", "Lisa", "Meggie")
     val simpson = "Lisa"
     val position = simpsonsD.indexOf(simpson)
@@ -34,9 +34,13 @@ fun main() {
     println("simpsons size: " + simpsonsE.size)
     if(!simpsonsE.isEmpty())
         println("Array tidak kosong!")
+//    nilai minimal
     println("Min = "+ simpsonsE.minOrNull())
+//    nilai maximal
     println("Max = "+ simpsonsE.maxOrNull())
+//    membalikkan nilai pertama
     println("First = " + simpsonsE.first())
+//    membalikkan nilai terakhir
     println("Last = " + simpsonsE.last())
     println(simpsonsE.contains("Marge"))
 }
