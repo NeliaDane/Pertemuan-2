@@ -5,7 +5,7 @@ dengan aman, maka tambahkan operator !! yang fungsinya melewatkan pemeriksaan ni
 
  */
 
-/*fun main() {
+fun main() {
     //Null safety
 //The !! operator
     var maybeNumber: Int? = 15
@@ -14,4 +14,3 @@ dengan aman, maka tambahkan operator !! yang fungsinya melewatkan pemeriksaan ni
     println(maybeNumber!! * 2)
 }
 
- */
