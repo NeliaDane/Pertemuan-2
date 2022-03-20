@@ -4,7 +4,6 @@
 variabel tersebut mungkin saja memiliki nilai null. Untuk memanggil dan menggunakannya
 dengan aman, maka tambahkan operator !! yang fungsinya melewatkan pemeriksaan nilai null.
      */
-    /*
 
     var maybeNumber: Int? = 15
     maybeNumber = null
@@ -14,5 +13,3 @@ dengan aman, maka tambahkan operator !! yang fungsinya melewatkan pemeriksaan ni
     println(s1.length)
     println(s2.length)
 }
-
-     */
